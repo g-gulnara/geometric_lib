@@ -174,3 +174,47 @@ def perimeter(a, b, c):
 print(perimeter(1, 2, 3))
 ```
 Вывод: 6
+
+## История коммитов
+
+```
+USER-1@DESKTOP-B3RMEFV MINGW64 ~/geometric_lib (new_features_465514)
+$ git log --all --pretty=oneline --graph
+* 19eabb4bb2a0ccede1f5e1408fec26f103fd220d (HEAD -> new_features_465514) add(README.md): documentation was added
+* b1abdf52dad0a225a9aac6f597408e4492bfa7ae Comments were added
+* c8c613d63876bc2dbc60b6c717d57be58c300011 fix(rectangle.py): fucntions were fixed. fix(triangle.py): functions were fixed
+* e0313f7c28621943d45ad779a97145e1289ac19f add (triangle.py): functions area and perimeter for a triangle fix (rectangle.py): function perimetr was fixed
+* 752a3b18c5c8ed975293aa56f343ec28e866bb41 add (rectangle.py): functions area, perimeter
+| * 86edb1c3dd57fa9abc7ba2ec7052507938084727 (origin/release) L-05: Update Docs. Add user agreement info
+| * 438b89a1dfc58d90e9036fe431771427965cd1ff L-05: Add user agreement
+| * 6adb96248a4d00d3bea13bd95d78ef52352cd1b4 L-03: Docs added
+| | * 30494317cde4419be779c14306561e0eaa78b88b (origin/feature) L-04: Add rectangle.py
+| |/
+|/|
+| | * b5b0fae727ca72c317c383b39c0af73d6adcd81c (origin/develop) L-04: Update docs for calculate.py
+| | * d76db2ac7f69cc920ae2e6f669fb0671a7fa7d71 L-04: Add calculate.py
+| | * 51c40ebfd0e0b65f52fe5e54740cbb038e492db3 L-04: Doc updated for triangle
+| | * d080c7888b81955bad2ed78d58ad910526b5132a L-04: Triangle added
+| |/
+:...skipping...
+* 19eabb4bb2a0ccede1f5e1408fec26f103fd220d (HEAD -> new_features_465514) add(README.md): documentation was added
+* b1abdf52dad0a225a9aac6f597408e4492bfa7ae Comments were added
+* c8c613d63876bc2dbc60b6c717d57be58c300011 fix(rectangle.py): fucntions were fixed. fix(triangle.py): functions were fixed
+* e0313f7c28621943d45ad779a97145e1289ac19f add (triangle.py): functions area and perimeter for a triangle fix (rectangle.py): function perimetr was fixed
+* 752a3b18c5c8ed975293aa56f343ec28e866bb41 add (rectangle.py): functions area, perimeter
+| * 86edb1c3dd57fa9abc7ba2ec7052507938084727 (origin/release) L-05: Update Docs. Add user agreement info
+| * 438b89a1dfc58d90e9036fe431771427965cd1ff L-05: Add user agreement
+| * 6adb96248a4d00d3bea13bd95d78ef52352cd1b4 L-03: Docs added
+| | * 30494317cde4419be779c14306561e0eaa78b88b (origin/feature) L-04: Add rectangle.py
+| |/
+|/|
+| | * b5b0fae727ca72c317c383b39c0af73d6adcd81c (origin/develop) L-04: Update docs for calculate.py
+| | * d76db2ac7f69cc920ae2e6f669fb0671a7fa7d71 L-04: Add calculate.py
+| | * 51c40ebfd0e0b65f52fe5e54740cbb038e492db3 L-04: Doc updated for triangle
+| | * d080c7888b81955bad2ed78d58ad910526b5132a L-04: Triangle added
+| |/
+|/|
+* | d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD, main) L-03: Docs added
+|/
+* 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
+```
