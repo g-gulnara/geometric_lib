@@ -28,11 +28,11 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_negative_values_area(self):
         res = area(-10, 5)
-        self.assertEqual(res, -25)  # В зависимости от логики, можно изменить на abs(-10) * 5 / 2
+        self.assertEqual(res, -25) 
 
     def test_negative_values_perimeter(self):
         res = perimeter(-3, 4, 5)
-        self.assertEqual(res, 6)  # В зависимости от логики, можно изменить на abs(-3) + 4 + 5
+        self.assertEqual(res, 6)
 
 if __name__ == '__main__':
     unittest.main()

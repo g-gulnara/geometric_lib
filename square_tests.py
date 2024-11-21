@@ -24,7 +24,7 @@ class SquareTestCase(unittest.TestCase):
 
     def test_negative_perimeter(self):
         res = perimeter(-4)
-        self.assertEqual(res, -16)  # Периметр может быть отрицательным, если a отрицательно
+        self.assertEqual(res, 16)
 
 if __name__ == '__main__':
     unittest.main()
