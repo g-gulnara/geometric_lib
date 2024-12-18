@@ -3,7 +3,7 @@ name: Test functions
 on:
   push:
     branches:
-      - new_features_46s5514
+      - new_features_465514
 
 jobs:
   build-ubuntu:
